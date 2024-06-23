@@ -1,4 +1,6 @@
-# React + Vite
+# React + Three.js + Vite
+
+![image](https://github.com/Danyal494/3D-Portfolio/assets/167676132/ce24f56b-1f43-4aa7-ac99-1882ca414e56)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
