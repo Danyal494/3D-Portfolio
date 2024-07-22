@@ -26,8 +26,8 @@ const Computers = ({ mobile }) => {
         position={mobile ? [0, -3, -2.2] : [0, -3.6, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       /> */}
-      <Pc   scale={mobile ? 0.4 : 0.75}
-        position={mobile ? [0, -3, -2.2] : [0, -3.6, -1.5]}
+      <Pc   scale={mobile ? 0.34 : 0.75}
+        position={mobile ? [-6.7, -2, -2.2] : [0, -3.6, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}/>
     </mesh>
   );

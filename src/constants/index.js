@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  solar,
+  roadcrossing,
+  kanban,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +49,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Three js Developer ",
     icon: mobile,
   },
   {
@@ -80,10 +83,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -108,10 +111,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
@@ -198,16 +201,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Solar System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A three dimensional replica of our solar system which is made by three.js",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "three.js",
         color: "green-text-gradient",
       },
       {
@@ -215,41 +218,41 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: solar,
+    source_code_link: "https://github.com/Danyal494/Solar-system",
   },
   {
-    name: "Job IT",
+    name: "Kanban Board",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The replica of kanban board made with react and use local storage to store user data ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
+      // {
+      //   name: "restapi",
+      //   color: "green-text-gradient",
+      // },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: kanban,
+    source_code_link: "https://github.com/Danyal494/Kanban-Board",
   },
   {
-    name: "Trip Guide",
+    name: "Computer Portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This is the three.js project in which i do the complex camera controll and show this portfolio in my computer 3D obj ",
     tags: [
       {
-        name: "nextjs",
+        name: "three.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +260,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: roadcrossing,
+    source_code_link: "https://github.com/Danyal494/Road-crossing",
   },
 ];
 
